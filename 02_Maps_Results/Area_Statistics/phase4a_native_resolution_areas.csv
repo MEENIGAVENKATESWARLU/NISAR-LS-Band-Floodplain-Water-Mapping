@@ -1,0 +1,16 @@
+method,measure,area_km2_from_phase3g_report
+L only,stable_nonwater,32343.7316
+L only,stable_water,10957.9353
+L only,water_gain,2981.1578
+L only,water_loss,11377.2968
+L only,net_water_change_km2,-8396.139
+S only,stable_nonwater,33980.6084
+S only,stable_water,6607.7749
+S only,water_gain,7113.7168
+S only,water_loss,9958.0214
+S only,net_water_change_km2,-2844.3046
+L+S 50:50,stable_nonwater,35082.1069
+L+S 50:50,stable_water,8325.5865
+L+S 50:50,water_gain,3614.8505
+L+S 50:50,water_loss,10637.5776
+L+S 50:50,net_water_change_km2,-7022.7271

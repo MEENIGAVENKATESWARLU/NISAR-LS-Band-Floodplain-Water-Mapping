@@ -1,0 +1,446 @@
+{
+  "source_dir": "D:\\Hackathon\\outputs\\phase3g",
+  "native_mode": "copy",
+  "source_raster_metadata": {
+    "L_aug": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 90232772
+    },
+    "L_sep": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 74174929
+    },
+    "S_aug": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 103219297
+    },
+    "S_sep": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 88860174
+    },
+    "F_aug": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 88137101
+    },
+    "F_sep": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 69567586
+    },
+    "L_change": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 132426108
+    },
+    "S_change": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 160023192
+    },
+    "F_change": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 129097407
+    },
+    "disagreement": {
+      "crs": "EPSG:32645",
+      "resolution_m": [
+        10.0,
+        10.0
+      ],
+      "width": 34200,
+      "height": 33120,
+      "transform": [
+        10.0,
+        0.0,
+        245520.0,
+        0.0,
+        -10.0,
+        2903760.0
+      ],
+      "bounds_m": [
+        245520.0,
+        2572560.0,
+        587520.0,
+        2903760.0
+      ],
+      "size_bytes": 119376962
+    }
+  },
+  "area_statistics_provenance": "copied original native 10m Phase 3G class area statistics",
+  "water_change_status": "Provisional classifications; radiometric and independent accuracy checks required.",
+  "maps": [
+    {
+      "map_type": "water",
+      "sensor": "L-band",
+      "date": "19 August 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_L_only_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\L_Band_2026-08-19_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\L_Band_2026-08-19_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\L_Band_2026-08-19_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "water",
+      "sensor": "L-band",
+      "date": "24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_L_only_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\L_Band_2026-09-24_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\L_Band_2026-09-24_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\L_Band_2026-09-24_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "water",
+      "sensor": "S-band",
+      "date": "19 August 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_S_only_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\S_Band_2026-08-19_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\S_Band_2026-08-19_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\S_Band_2026-08-19_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "water",
+      "sensor": "S-band",
+      "date": "24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_S_only_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\S_Band_2026-09-24_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\S_Band_2026-09-24_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\S_Band_2026-09-24_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "water",
+      "sensor": "L+S equal-weight",
+      "date": "19 August 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_LS_equalweight_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\LS_EqualWeight_2026-08-19_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\LS_EqualWeight_2026-08-19_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\LS_EqualWeight_2026-08-19_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "water",
+      "sensor": "L+S equal-weight",
+      "date": "24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_LS_equalweight_water.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\LS_EqualWeight_2026-09-24_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\LS_EqualWeight_2026-09-24_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\LS_EqualWeight_2026-09-24_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "change",
+      "sensor": "L-band",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_L_only_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\L_Band_Aug_Sep_Change_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\L_Band_Aug_Sep_Change_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Change_Maps\\L_Band_Aug_Sep_Change_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "newly_classified_water",
+      "sensor": "L-band",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_L_only_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\L_Band_Newly_Classified_Water_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\L_Band_Newly_Classified_Water_GEOREFERENCED_OVERVIEW.tif",
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Newly_Detected_Water\\L_Band_Newly_Classified_Water_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "note": "Newly classified means Aug non-water to Sep water, not independently validated inundation."
+    },
+    {
+      "map_type": "change",
+      "sensor": "S-band",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_S_only_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\S_Band_Aug_Sep_Change_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\S_Band_Aug_Sep_Change_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Change_Maps\\S_Band_Aug_Sep_Change_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "newly_classified_water",
+      "sensor": "S-band",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_S_only_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\S_Band_Newly_Classified_Water_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\S_Band_Newly_Classified_Water_GEOREFERENCED_OVERVIEW.tif",
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Newly_Detected_Water\\S_Band_Newly_Classified_Water_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "note": "Newly classified means Aug non-water to Sep water, not independently validated inundation."
+    },
+    {
+      "map_type": "change",
+      "sensor": "L+S equal-weight",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_LS_equalweight_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\LS_EqualWeight_Aug_Sep_Change_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\LS_EqualWeight_Aug_Sep_Change_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Change_Maps\\LS_EqualWeight_Aug_Sep_Change_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    },
+    {
+      "map_type": "newly_classified_water",
+      "sensor": "L+S equal-weight",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_LS_equalweight_change_4class.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\LS_EqualWeight_Newly_Classified_Water_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\LS_EqualWeight_Newly_Classified_Water_GEOREFERENCED_OVERVIEW.tif",
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Newly_Detected_Water\\LS_EqualWeight_Newly_Classified_Water_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "note": "Newly classified means Aug non-water to Sep water, not independently validated inundation."
+    },
+    {
+      "map_type": "disagreement",
+      "sensor": "L versus S",
+      "date": "19 August - 24 September 2026",
+      "source_native": "D:\\Hackathon\\outputs\\phase3g\\phase3g_L_vs_S_change_disagreement.tif",
+      "native_10m": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Native_10m\\L_vs_S_Change_Disagreement_NATIVE_10m.tif",
+      "georeferenced_overview": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\Browse_Overviews\\L_vs_S_Change_Disagreement_GEOREFERENCED_OVERVIEW.tif",
+      "overview_resolution_m": [
+        150.0,
+        150.0
+      ],
+      "cartographic_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Change_Maps\\L_vs_S_Change_Disagreement_MAP.png",
+      "crs": "EPSG:32645",
+      "native_resolution_m": 10,
+      "native_github_upload_note": "Native TIFF often exceeds GitHub browser limit; host externally if necessary."
+    }
+  ]
+}

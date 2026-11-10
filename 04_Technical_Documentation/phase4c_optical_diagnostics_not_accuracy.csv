@@ -1,0 +1,4 @@
+﻿optical_subset,optical_date_interpretable_n,optical_water_like_n,optical_nonwater_like_n,official_independent_reference_n,interpretation,L_agreement_count,L_agreement_fraction_descriptive,S_agreement_count,S_agreement_fraction_descriptive,LS_equalweight_agreement_count,LS_equalweight_agreement_fraction_descriptive
+within24h,49,4,45,0,DESCRIPTIVE_SCREEN_ONLY_NOT_ACCURACY,34,0.693878,35,0.714286,36,0.734694
+within72h,58,4,54,0,DESCRIPTIVE_SCREEN_ONLY_NOT_ACCURACY,39,0.672414,43,0.741379,44,0.758621
+all_usable_optical_dates,83,5,78,0,DESCRIPTIVE_SCREEN_ONLY_NOT_ACCURACY,49,0.590361,61,0.73494,59,0.710843

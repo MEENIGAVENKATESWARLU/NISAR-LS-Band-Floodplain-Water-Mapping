@@ -1,0 +1,91 @@
+{
+  "phase": "AI-assisted optical image DATE descriptive comparison, not independent reference validation",
+  "source_screen": "phase4b_ai_august_review_116.csv",
+  "source_400_template": "outputs\\phase4b\\phase4b_blinded_reference_template.csv",
+  "reference_label_fields_modified": false,
+  "official_reference_labels_preserved": 0,
+  "screened_n": 116,
+  "diagnostic_only": {
+    "within24h": {
+      "n": 49,
+      "optical_class_counts": {
+        "0": 45,
+        "1": 4
+      },
+      "model_optical_screen_agreement": {
+        "L": {
+          "comparable_n": 49,
+          "agreement_count": 34,
+          "agreement_fraction_descriptive_only": 0.693878
+        },
+        "S": {
+          "comparable_n": 49,
+          "agreement_count": 35,
+          "agreement_fraction_descriptive_only": 0.714286
+        },
+        "LS_equalweight": {
+          "comparable_n": 49,
+          "agreement_count": 36,
+          "agreement_fraction_descriptive_only": 0.734694
+        }
+      }
+    },
+    "within72h": {
+      "n": 58,
+      "optical_class_counts": {
+        "0": 54,
+        "1": 4
+      },
+      "model_optical_screen_agreement": {
+        "L": {
+          "comparable_n": 58,
+          "agreement_count": 39,
+          "agreement_fraction_descriptive_only": 0.672414
+        },
+        "S": {
+          "comparable_n": 58,
+          "agreement_count": 43,
+          "agreement_fraction_descriptive_only": 0.741379
+        },
+        "LS_equalweight": {
+          "comparable_n": 58,
+          "agreement_count": 44,
+          "agreement_fraction_descriptive_only": 0.758621
+        }
+      }
+    },
+    "all_usable_optical_dates": {
+      "n": 83,
+      "optical_class_counts": {
+        "0": 78,
+        "1": 5
+      },
+      "model_optical_screen_agreement": {
+        "L": {
+          "comparable_n": 83,
+          "agreement_count": 49,
+          "agreement_fraction_descriptive_only": 0.590361
+        },
+        "S": {
+          "comparable_n": 83,
+          "agreement_count": 61,
+          "agreement_fraction_descriptive_only": 0.73494
+        },
+        "LS_equalweight": {
+          "comparable_n": 83,
+          "agreement_count": 59,
+          "agreement_fraction_descriptive_only": 0.710843
+        }
+      }
+    }
+  },
+  "no_full_scene_accuracy": true,
+  "no_verified_water_area_change": true,
+  "warnings": [
+    "Model-optical screen agreement is NOT classification accuracy because imagery is not SAR-time independently verified ground truth.",
+    "Subset selected by cloud and optical availability, and original sampling is stratified by L-band change; do not scale to full scene.",
+    "AI visual-screen labels are not original expert ground-truth; do not insert these into reference_aug_water or call official --mode evaluate with these labels.",
+    "At 24h or longer gaps, genuine fast-moving water may change between SAR and optical acquisition; spatial supports also differ.",
+    "S Sep UR/PR HV anomaly remains unresolved; August optical diagnostic does not establish September temporal reliability."
+  ]
+}

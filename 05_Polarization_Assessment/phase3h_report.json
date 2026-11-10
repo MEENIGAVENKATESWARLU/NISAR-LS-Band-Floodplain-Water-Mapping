@@ -1,0 +1,221 @@
+{
+  "phase": "3H diagnostic radiometric-tail audit and S-HV sensitivity, NOT calibration",
+  "created_utc": "2026-11-08T06:49:42.932619+00:00",
+  "engineering_report_checks": {
+    "L": {
+      "pixels_sum": 576601215,
+      "net_change_arithmetic_pass": true
+    },
+    "S": {
+      "pixels_sum": 576601215,
+      "net_change_arithmetic_pass": true
+    },
+    "F": {
+      "pixels_sum": 576601215,
+      "net_change_arithmetic_pass": true
+    }
+  },
+  "phase3g_four_scene_joint_valid_pixels": 576601215,
+  "phase3g_L_S_change_disagreement_fraction": 0.40363812,
+  "sample_type": "Spatially stratified random windows; not a reference sample, not design-weighted area estimation",
+  "sample_design": {
+    "strata_rows": 8,
+    "strata_cols": 8,
+    "tiles_per_stratum": 2,
+    "patch": 96,
+    "seed": 20261108
+  },
+  "sample_counts": {
+    "total_window_pixels": 1179648,
+    "valid_window_pixels": 628336,
+    "windows_attempted": 128,
+    "windows_with_valid": 69,
+    "reproduction_mismatches": 0,
+    "reproduction_comparisons": 3770016
+  },
+  "radiometric_distributions_db_on_same_sample": {
+    "L_aug_HH": {
+      "n": 628336,
+      "p01_db": -20.461,
+      "p10_db": -16.203,
+      "median_db": -9.405,
+      "p90_db": -3.982,
+      "p99_db": -0.039,
+      "frac_below_minus_30_db": 0.0,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "L_aug_HV": {
+      "n": 628336,
+      "p01_db": -26.757,
+      "p10_db": -23.268,
+      "median_db": -17.147,
+      "p90_db": -10.844,
+      "p99_db": -7.286,
+      "frac_below_minus_30_db": 0.000315,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "S_aug_HH": {
+      "n": 628336,
+      "p01_db": -19.728,
+      "p10_db": -15.078,
+      "median_db": -9.737,
+      "p90_db": -5.121,
+      "p99_db": -1.472,
+      "frac_below_minus_30_db": 0.0,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "S_aug_HV": {
+      "n": 628336,
+      "p01_db": -23.56,
+      "p10_db": -19.905,
+      "median_db": -15.435,
+      "p90_db": -11.201,
+      "p99_db": -7.966,
+      "frac_below_minus_30_db": 1.8e-05,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "L_sep_HH": {
+      "n": 628336,
+      "p01_db": -18.878,
+      "p10_db": -14.14,
+      "median_db": -7.589,
+      "p90_db": -2.775,
+      "p99_db": 1.5,
+      "frac_below_minus_30_db": 0.0,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "L_sep_HV": {
+      "n": 628336,
+      "p01_db": -26.255,
+      "p10_db": -22.642,
+      "median_db": -16.103,
+      "p90_db": -10.188,
+      "p99_db": -6.66,
+      "frac_below_minus_30_db": 0.000201,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "S_sep_HH": {
+      "n": 628336,
+      "p01_db": -18.524,
+      "p10_db": -13.496,
+      "median_db": -8.259,
+      "p90_db": -3.909,
+      "p99_db": -0.402,
+      "frac_below_minus_30_db": 0.0,
+      "frac_below_minus_40_db": 0.0,
+      "frac_below_minus_50_db": 0.0
+    },
+    "S_sep_HV": {
+      "n": 628336,
+      "p01_db": -56.607,
+      "p10_db": -52.253,
+      "median_db": -18.941,
+      "p90_db": -11.317,
+      "p99_db": -7.667,
+      "frac_below_minus_30_db": 0.418381,
+      "frac_below_minus_40_db": 0.398403,
+      "frac_below_minus_50_db": 0.197606
+    }
+  },
+  "september_S_HV_offset_stress_test": [
+    {
+      "S_sep_HV_test_offset_db": -3.0,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.2774773369662092,
+      "F_sep_water_fraction": 0.2119296045427924,
+      "S_sep_water_flip_fraction_vs_baseline": 0.04121680120190471,
+      "F_sep_water_flip_fraction_vs_baseline": 0.01379039240151766,
+      "S_sample_gain_fraction": 0.15220041506455145,
+      "S_sample_loss_fraction": 0.1558513279519238,
+      "F_sample_gain_fraction": 0.06718698276081587,
+      "F_sample_loss_fraction": 0.16596693488834
+    },
+    {
+      "S_sep_HV_test_offset_db": -2.58,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.27288266150594587,
+      "F_sep_water_fraction": 0.21061183825214536,
+      "S_sep_water_flip_fraction_vs_baseline": 0.03662212574164141,
+      "F_sep_water_flip_fraction_vs_baseline": 0.012472626110870617,
+      "S_sample_gain_fraction": 0.14875798935601334,
+      "S_sample_loss_fraction": 0.157003577703649,
+      "F_sample_gain_fraction": 0.06640237070611901,
+      "F_sample_loss_fraction": 0.16650008912429018
+    },
+    {
+      "S_sep_HV_test_offset_db": -1.5,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.2588583178426829,
+      "F_sep_water_fraction": 0.20623042448626214,
+      "S_sep_water_flip_fraction_vs_baseline": 0.022597782078378446,
+      "F_sep_water_flip_fraction_vs_baseline": 0.008091212344987395,
+      "S_sample_gain_fraction": 0.13846731684958366,
+      "S_sample_loss_fraction": 0.1607372488604823,
+      "F_sample_gain_fraction": 0.06411537775966998,
+      "F_sample_loss_fraction": 0.16859450994372438
+    },
+    {
+      "S_sep_HV_test_offset_db": 0.0,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.23626053576430445,
+      "F_sep_water_fraction": 0.19813921214127472,
+      "S_sep_water_flip_fraction_vs_baseline": 0.0,
+      "F_sep_water_flip_fraction_vs_baseline": 0.0,
+      "S_sample_gain_fraction": 0.12343555040615212,
+      "S_sample_loss_fraction": 0.1683032644954292,
+      "F_sample_gain_fraction": 0.06033714445774235,
+      "F_sample_loss_fraction": 0.17290748898678415
+    },
+    {
+      "S_sep_HV_test_offset_db": 1.5,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.21378052506938963,
+      "F_sep_water_fraction": 0.18786445468666446,
+      "S_sep_water_flip_fraction_vs_baseline": 0.022480010694914822,
+      "F_sep_water_flip_fraction_vs_baseline": 0.010274757454610272,
+      "S_sample_gain_fraction": 0.11015762267321942,
+      "S_sample_loss_fraction": 0.1775053474574113,
+      "F_sample_gain_fraction": 0.05637588805989152,
+      "F_sample_loss_fraction": 0.17922099004354358
+    },
+    {
+      "S_sep_HV_test_offset_db": 2.58,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.1998198416134043,
+      "F_sep_water_fraction": 0.17915414682590206,
+      "S_sep_water_flip_fraction_vs_baseline": 0.036440694150900156,
+      "F_sep_water_flip_fraction_vs_baseline": 0.018985065315372668,
+      "S_sample_gain_fraction": 0.10269664638028062,
+      "S_sample_loss_fraction": 0.18400505462045785,
+      "F_sample_gain_fraction": 0.05346661658730361,
+      "F_sample_loss_fraction": 0.18502202643171806
+    },
+    {
+      "S_sep_HV_test_offset_db": 3.0,
+      "sample_valid_pixels": 628336,
+      "S_sep_water_fraction": 0.19506283262458302,
+      "F_sep_water_fraction": 0.17561463930126556,
+      "S_sep_water_flip_fraction_vs_baseline": 0.041197703139721424,
+      "F_sep_water_flip_fraction_vs_baseline": 0.022524572840009166,
+      "S_sample_gain_fraction": 0.10028869904000408,
+      "S_sample_loss_fraction": 0.18635411626900258,
+      "F_sample_gain_fraction": 0.05240985714649487,
+      "F_sample_loss_fraction": 0.1875047745155458
+    }
+  ],
+  "essential_limits": [
+    "September S-band uses UR while August S-band uses PR; equivalence NOT established.",
+    "Adding a dB offset in this experiment is sensitivity testing, NOT a valid radiometric correction.",
+    "The sampled fractions must NOT be scaled to claim entire-scene changes or water area.",
+    "Scene-level backscatter distribution changes mix hydrology, land cover, incidence/processing and noise floor.",
+    "Extremely low S-HV values require scrutiny of processing, quality masks and noise floor.",
+    "No independent water labels, accuracy metrics, uncertainty calibration or verified flooding generated."
+  ],
+  "result": "DIAGNOSTIC_ONLY"
+}

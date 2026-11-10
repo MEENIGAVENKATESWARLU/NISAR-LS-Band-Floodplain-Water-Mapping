@@ -1,0 +1,27 @@
+{
+  "model": "L_aug",
+  "sensor": "L-band",
+  "date": "19 August 2026",
+  "source_native_file": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_L_only_water.tif",
+  "native_epsg": 32645,
+  "native_resolution_m": [
+    10.0,
+    10.0
+  ],
+  "native_nodata": 255.0,
+  "native_width_height": [
+    34200,
+    33120
+  ],
+  "native_tiff_bytes": 90232772,
+  "native_copied_to_submission_folder": false,
+  "submission_native_file": null,
+  "georeferenced_overview_tiff": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\GeoTIFF\\L_Band_2026-08-19_GEOREFERENCED_OVERVIEW.tif",
+  "overview_resolution_m": [
+    150.0,
+    150.0
+  ],
+  "map_png": "D:\\Hackathon\\NISAR_GitHub_Results\\02_Maps_Results\\Water_Masks\\L_Band_2026-08-19_MAP.png",
+  "overview_is_native_resolution": false,
+  "methods_note": "Nearest-neighbour decimated overview is for sharing; use native TIFF for 10 m analysis."
+}

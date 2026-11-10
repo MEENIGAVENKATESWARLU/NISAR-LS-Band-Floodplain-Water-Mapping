@@ -1,0 +1,78 @@
+{
+  "phase": "4C",
+  "status": "ENGINEERING_CHECKS_PASS__NO_INDEPENDENT_ACCURACY",
+  "generated_utc": "2026-11-08T08:27:19.013963+00:00",
+  "four_scene_joint_valid_pixels": 576601215,
+  "four_scene_joint_valid_km2": 57660.1215,
+  "L_vs_S_fourclass_change_disagreement_percent": 40.3638,
+  "methods": {
+    "L": {
+      "aug_classified_km2": 22335.2321,
+      "sep_classified_km2": 13939.093100000002,
+      "net_km2": -8396.139,
+      "gain_km2": 2981.1578,
+      "loss_km2": 11377.2968,
+      "stable_water_km2": 10957.935300000001,
+      "stable_nonwater_km2": 32343.731600000003
+    },
+    "S": {
+      "aug_classified_km2": 16565.7963,
+      "sep_classified_km2": 13721.4917,
+      "net_km2": -2844.3045999999995,
+      "gain_km2": 7113.7168,
+      "loss_km2": 9958.0214,
+      "stable_water_km2": 6607.7749,
+      "stable_nonwater_km2": 33980.608400000005
+    },
+    "F": {
+      "aug_classified_km2": 18963.1641,
+      "sep_classified_km2": 11940.437000000002,
+      "net_km2": -7022.7271,
+      "gain_km2": 3614.8505,
+      "loss_km2": 10637.5776,
+      "stable_water_km2": 8325.586500000001,
+      "stable_nonwater_km2": 35082.1069
+    }
+  },
+  "optical_screening": {
+    "original_sample_n": 400,
+    "screened_n": 116,
+    "interpretable_n": 83,
+    "review_categories": {
+      "NON_WATER_LIKE": 78,
+      "UNRESOLVED": 33,
+      "WATER_LIKE": 5
+    },
+    "within_24h_n": 49,
+    "within_72h_n": 58,
+    "verified_reference_labels_n": 0,
+    "class_counts": {
+      "0": 78,
+      "1": 5
+    }
+  },
+  "september_S_HV_tail": {
+    "aug_below_minus_40_fraction": 0.0,
+    "sep_below_minus_40_fraction": 0.398403,
+    "sample_n": 628336,
+    "aug_p10_db": -19.905,
+    "sep_p10_db": -52.253
+  },
+  "limitations": [
+    "No verified SAR-time water labels or performance metrics",
+    "AI optical-date labels and agreement are descriptive; not classifier accuracy",
+    "S September UR vs August PR processing comparability unresolved",
+    "Do not interpret class-area differences as measured water gain/loss",
+    "No calibrated water probability or adaptive-fusion superiority demonstrated"
+  ],
+  "source_checksums_sha256": {
+    "outputs\\phase3g\\phase3g_report.json": "5e5cf448bc15a04b3d74b63b9847068a336c61f6e0dd3952ccdc7b2d457506fc",
+    "outputs\\phase4b\\phase4b_AI_screening_diagnostic_report.json": "a0a9637f26868b770ed76e197ea160c42ebedcb28f1b110f780f11615faf4913",
+    "outputs\\phase4b\\phase4b_AI_screened_400.csv": "aa7c7b9ed116587c05239e258124046a663b6c7a86b790f55b6a6c929d36ae5c"
+  },
+  "figures_in_local_workspace": [
+    "outputs\\phase4a_high_quality\\phase4a_change_disagreement.png",
+    "outputs\\phase4a_high_quality\\phase4a_nisar_3x3_comparison.png",
+    "outputs\\phase4a_high_quality\\phase4a_three_change_maps.png"
+  ]
+}

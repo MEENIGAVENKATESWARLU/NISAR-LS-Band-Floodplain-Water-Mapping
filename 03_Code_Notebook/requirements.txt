@@ -1,0 +1,5 @@
+numpy
+rasterio
+h5py
+matplotlib
+Pillow

@@ -1,0 +1,314 @@
+{
+  "phase": "3G: two-date L-only, S-only, 50:50 L/S exploratory change",
+  "created_utc": "2026-11-08T06:10:36.370342+00:00",
+  "mode": "run",
+  "source_files": {
+    "L_aug": "D:\\Hackathon\\data\\raw\\L_band\\NISAR_L2_PR_GCOV_028_098_A_014_4005_DHDH_A_20260819T233811_20260819T233845_P05023_N_F_J_001.h5",
+    "S_aug": "D:\\Hackathon\\data\\raw\\S_band\\NISAR_S2_PR_GCOV_028_098_A_014_3700_DHNA_A_20260819T233810_20260819T233847_P00500_P_F_I_001.h5",
+    "L_sep": "D:\\Hackathon\\data\\raw\\L_band\\NISAR_L2_PR_GCOV_031_098_A_014_4005_DHDH_A_20260924T233810_20260924T233845_P05023_N_F_J_001.h5",
+    "S_sep": "D:\\Hackathon\\data\\raw\\S_band\\NISAR_S2_UR_GCOV_031_098_A_014_3700_DHNA_A_20260924T233810_20260924T233846_P00500_M_F_I_001.h5"
+  },
+  "source_grids": {
+    "L_aug": {
+      "file": "NISAR_L2_PR_GCOV_028_098_A_014_4005_DHDH_A_20260819T233811_20260819T233845_P05023_N_F_J_001.h5",
+      "instrument": "L",
+      "epsg": 32645,
+      "rows": 33696,
+      "cols": 34344,
+      "dx": 10.0,
+      "dy": -10.0,
+      "pixel_center_first": [
+        244805.0,
+        2906635.0
+      ],
+      "pixel_center_last": [
+        588235.0,
+        2569685.0
+      ],
+      "channels": [
+        "HHHH",
+        "HVHV"
+      ]
+    },
+    "S_aug": {
+      "file": "NISAR_S2_PR_GCOV_028_098_A_014_3700_DHNA_A_20260819T233810_20260819T233847_P00500_P_F_I_001.h5",
+      "instrument": "S",
+      "epsg": 32645,
+      "rows": 33120,
+      "cols": 34200,
+      "dx": 10.0,
+      "dy": -10.0,
+      "pixel_center_first": [
+        245525.0,
+        2903755.0
+      ],
+      "pixel_center_last": [
+        587515.0,
+        2572565.0
+      ],
+      "channels": [
+        "HHHH",
+        "HHHV",
+        "HVHV"
+      ]
+    },
+    "L_sep": {
+      "file": "NISAR_L2_PR_GCOV_031_098_A_014_4005_DHDH_A_20260924T233810_20260924T233845_P05023_N_F_J_001.h5",
+      "instrument": "L",
+      "epsg": 32645,
+      "rows": 33696,
+      "cols": 34344,
+      "dx": 10.0,
+      "dy": -10.0,
+      "pixel_center_first": [
+        244805.0,
+        2906635.0
+      ],
+      "pixel_center_last": [
+        588235.0,
+        2569685.0
+      ],
+      "channels": [
+        "HHHH",
+        "HVHV"
+      ]
+    },
+    "S_sep": {
+      "file": "NISAR_S2_UR_GCOV_031_098_A_014_3700_DHNA_A_20260924T233810_20260924T233846_P00500_M_F_I_001.h5",
+      "instrument": "S",
+      "epsg": 32645,
+      "rows": 33120,
+      "cols": 34200,
+      "dx": 10.0,
+      "dy": -10.0,
+      "pixel_center_first": [
+        245525.0,
+        2903755.0
+      ],
+      "pixel_center_last": [
+        587515.0,
+        2572565.0
+      ],
+      "channels": [
+        "HHHH",
+        "HHHV",
+        "HVHV"
+      ]
+    }
+  },
+  "s_to_l_row_col_offset": [
+    288,
+    72
+  ],
+  "grid_test": "PASS: exact within-sensor temporal grid, integer-offset cross-sensor grid",
+  "threshold_source": "D:\\Hackathon\\outputs\\phase3c\\phase3c_report.json",
+  "fixed_august_derived_thresholds_db": {
+    "L_HH": -10.4138,
+    "L_HV": -17.0491,
+    "S_HH": -10.2304,
+    "S_HV": -15.6406
+  },
+  "score_transition_db": 2.5,
+  "preflight_sample": {
+    "counts": {
+      "sample_pixels": 409600,
+      "joint_valid_four_scene": 168368,
+      "L_aug_valid": 172032,
+      "S_aug_valid": 188848,
+      "L_sep_valid": 176128,
+      "S_sep_valid": 189155,
+      "S_aug_cross_checked": 168368,
+      "S_aug_cross_nonfinite": 0,
+      "S_aug_PSD_gt_1p05": 0,
+      "S_sep_cross_checked": 168368,
+      "S_sep_cross_nonfinite": 0,
+      "S_sep_PSD_gt_1p05": 0
+    },
+    "db_distribution_on_same_fourway_sample": {
+      "L_aug_HH": {
+        "median_db": -10.337,
+        "p10_db": -16.884,
+        "p90_db": -4.415,
+        "n": 168368
+      },
+      "L_aug_HV": {
+        "median_db": -18.332,
+        "p10_db": -23.814,
+        "p90_db": -11.405,
+        "n": 168368
+      },
+      "S_aug_HH": {
+        "median_db": -9.959,
+        "p10_db": -15.411,
+        "p90_db": -5.196,
+        "n": 168368
+      },
+      "S_aug_HV": {
+        "median_db": -15.68,
+        "p10_db": -20.221,
+        "p90_db": -11.397,
+        "n": 168368
+      },
+      "L_sep_HH": {
+        "median_db": -8.605,
+        "p10_db": -15.839,
+        "p90_db": -2.905,
+        "n": 168368
+      },
+      "L_sep_HV": {
+        "median_db": -17.738,
+        "p10_db": -23.543,
+        "p90_db": -10.857,
+        "n": 168368
+      },
+      "S_sep_HH": {
+        "median_db": -8.691,
+        "p10_db": -14.913,
+        "p90_db": -4.071,
+        "n": 168368
+      },
+      "S_sep_HV": {
+        "median_db": -18.26,
+        "p10_db": -52.442,
+        "p90_db": -11.482,
+        "n": 168368
+      }
+    },
+    "median_shift_diagnostics": {
+      "L_HH_sep_minus_aug_median_db": 1.732,
+      "L_HV_sep_minus_aug_median_db": 0.594,
+      "S_HH_sep_minus_aug_median_db": 1.268,
+      "S_HV_sep_minus_aug_median_db": -2.58
+    },
+    "note": "Scene-level distribution changes can reflect hydrology/land cover/processing; not a radiometric calibration test."
+  },
+  "change_codes": {
+    "0": "stable_nonwater",
+    "1": "stable_water",
+    "2": "newly_classified_water",
+    "3": "water_loss",
+    "255": "invalid_any_of_four_scenes"
+  },
+  "classification_method": "Apply August-derived frequency-specific HH/HV Otsu thresholds to both dates using min-logistic score; 50:50 average L/S scores (uncalibrated).",
+  "critical_caveats": [
+    "S September UR versus August PR product processing is not demonstrated radiometrically equivalent.",
+    "Median differences over a changing floodplain are NOT sufficient to diagnose sensor calibration.",
+    "Changes are changes in provisional class assignment, not independently verified flooding.",
+    "All maps and areas restricted to identical FOUR-scene valid support on FULL S native rectangular grid.",
+    "Full L native extent outside S rectangle is represented in separate Phase 2A products.",
+    "No interpolating or upsampling; native pixel grids are exactly aligned at 10 m.",
+    "Gamma-nought diagonal covariances treated as positive linear power.",
+    "HHHV is only an S-band PSD diagnostic and is NOT included in the fair HH/HV comparison.",
+    "No independent reference labels or accuracy scores generated.",
+    "Discovery bbox is not used to clip science scenes."
+  ],
+  "full_scene_results": {
+    "s_native_grid_pixels": 1132704000,
+    "four_scene_joint_valid_pixels": 576601215,
+    "four_scene_joint_valid_km2": 57660.1215,
+    "four_scene_joint_valid_fraction_of_S_rectangle": 0.50904845,
+    "four_source_mask_counts": {
+      "L_aug": 577758403,
+      "S_aug": 626238401,
+      "L_sep": 594250384,
+      "S_sep": 627601290
+    },
+    "per_date_LS_disagreement": {
+      "aug": {
+        "pixels": 151647228,
+        "fraction_fourway_joint_valid": 0.26300192
+      },
+      "sep": {
+        "pixels": 127583856,
+        "fraction_fourway_joint_valid": 0.22126879
+      }
+    },
+    "L_vs_S_change_disagreement_pixels": 232738230,
+    "L_vs_S_change_disagreement_fraction": 0.40363812,
+    "models": {
+      "L": {
+        "classes_pixels": {
+          "stable_nonwater": 323437316,
+          "stable_water": 109579353,
+          "water_gain": 29811578,
+          "water_loss": 113772968
+        },
+        "classes_km2": {
+          "stable_nonwater": 32343.7316,
+          "stable_water": 10957.9353,
+          "water_gain": 2981.1578,
+          "water_loss": 11377.2968
+        },
+        "aug_water_km2": 22335.2321,
+        "sep_water_km2": 13939.0931,
+        "net_water_change_km2": -8396.139
+      },
+      "S": {
+        "classes_pixels": {
+          "stable_nonwater": 339806084,
+          "stable_water": 66077749,
+          "water_gain": 71137168,
+          "water_loss": 99580214
+        },
+        "classes_km2": {
+          "stable_nonwater": 33980.6084,
+          "stable_water": 6607.7749,
+          "water_gain": 7113.7168,
+          "water_loss": 9958.0214
+        },
+        "aug_water_km2": 16565.7963,
+        "sep_water_km2": 13721.4917,
+        "net_water_change_km2": -2844.3046
+      },
+      "F": {
+        "classes_pixels": {
+          "stable_nonwater": 350821069,
+          "stable_water": 83255865,
+          "water_gain": 36148505,
+          "water_loss": 106375776
+        },
+        "classes_km2": {
+          "stable_nonwater": 35082.1069,
+          "stable_water": 8325.5865,
+          "water_gain": 3614.8505,
+          "water_loss": 10637.5776
+        },
+        "aug_water_km2": 18963.1641,
+        "sep_water_km2": 11940.437,
+        "net_water_change_km2": -7022.7271
+      }
+    },
+    "L_vs_S_change_class_contingency_pixels": {
+      "L0_S0": 249461635,
+      "L0_S1": 9881074,
+      "L0_S2": 33561614,
+      "L0_S3": 30532993,
+      "L1_S0": 24559849,
+      "L1_S1": 42425005,
+      "L1_S2": 18010803,
+      "L1_S3": 24583696,
+      "L2_S0": 12508314,
+      "L2_S1": 3334292,
+      "L2_S2": 10740896,
+      "L2_S3": 3228076,
+      "L3_S0": 53276286,
+      "L3_S1": 10437378,
+      "L3_S2": 8823855,
+      "L3_S3": 41235449
+    },
+    "outputs": {
+      "joint": "D:\\Hackathon\\outputs\\phase3g\\phase3g_four_scene_joint_valid.tif",
+      "L_aug": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_L_only_water.tif",
+      "S_aug": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_S_only_water.tif",
+      "F_aug": "D:\\Hackathon\\outputs\\phase3g\\phase3g_aug_LS_equalweight_water.tif",
+      "L_sep": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_L_only_water.tif",
+      "S_sep": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_S_only_water.tif",
+      "F_sep": "D:\\Hackathon\\outputs\\phase3g\\phase3g_sep_LS_equalweight_water.tif",
+      "L_change": "D:\\Hackathon\\outputs\\phase3g\\phase3g_L_only_change_4class.tif",
+      "S_change": "D:\\Hackathon\\outputs\\phase3g\\phase3g_S_only_change_4class.tif",
+      "F_change": "D:\\Hackathon\\outputs\\phase3g\\phase3g_LS_equalweight_change_4class.tif",
+      "frequency_change_disagreement": "D:\\Hackathon\\outputs\\phase3g\\phase3g_L_vs_S_change_disagreement.tif"
+    }
+  },
+  "engineering_integrity_pass": true
+}
